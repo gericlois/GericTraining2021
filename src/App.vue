@@ -1,19 +1,17 @@
 <template>
   <div id="app">
-    <HelloWorld/>
-    <Department/>
+    <Employee/>
   </div>
 
   
 </template>
 
 <script>
-import Department from './components/Department.vue'
-import HelloWorld from './components/HelloWorld.vue'
+import Employee from './components/Employee.vue'
 
 export default {
   name: 'App',
-  components: { HelloWorld, Department
+  components: {  Employee
   }
 }
 </script>
